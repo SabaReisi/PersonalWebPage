@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	
+	<title>
+		Saba Reisi &infin;
+	</title>
+
+	<style>
+		:root 
+		{
+        --cd1: #FFE3B3;
+        --cd2: #C6DF76;
+        --cd3: #FE72A9;
+		--cd4: #DD4470;
+		--cd5: #FFC872;
+    	}
+
+		hr
+		{
+			height: 1px;
+			background-color: var(--cd2);
+		}
+
+		.Intro
+		{
+			display: flex;  
+            flex-direction: row;  
+			background-color: var(--cd5);
+			/* border: 1px solid var(--cd3); */
+			border-radius: 35px;
+			height: 500px;
+		}
+
+		.ImageLinks
+		{
+			/* border: 1px solid var(--cd3); */
+			width: 30%;
+			height: 100%;
+		}
+
+		.TextIntro
+		{
+			display: flex;  
+            flex-direction: column;  
+			/* border: 1px solid var(--cd3); */
+			width: 70%;
+			height: 100%;
+			text-align: center;
+			font-family: 'Times New Roman', Times, serif;
+		}
+
+		#img1
+		{
+			margin-left: 40px;
+			margin-top: 60px;
+			margin-bottom: 20px;
+			text-align: center;
+			height: 65%;
+			width: 80%;
+			/* border: 1px solid var(--cd3); */
+			border-radius: 50%;
+			box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		.InfoLinks
+		{
+			color: #4f165a;
+			font-size: 18px;
+		}
+
+		.InfoLinks:hover
+		{
+		background-color: var(--cd3);
+		color: var(--cd1);
+		padding: 2px;
+		text-decoration: underline;
+		}
+
+		.TextIntroUp
+		{
+			/* border: 1px solid var(--cd3); */
+			width: 100%;
+			height: 50%;
+		}
+
+		.TextIntroDown
+		{
+			display: flex;  
+            flex-direction: row; 
+			width: 100%;
+			height: 50%;
+			/* border: 1px solid var(--cd3); */
+		}
+
+		.TextIntroDownLeft
+		{
+			/* border: 1px solid var(--cd3); */
+			width: 50%;
+			height: 100%;
+		}
+
+		.TextIntroDownRight
+		{
+			/* border: 1px solid var(--cd3); */
+			width: 50%;
+			height: 100%;
+		}
+
+		/* desining a menu bar */
+		#ul2 
+		{
+		background-color: var(--cd1);
+		color: black;
+		list-style-type: none;
+		overflow: hidden; 
+		}
+		
+		#ul2 li 
+		{
+		font-size: 18px;
+		}
+		
+		#ul2 li a 
+		{
+		text-decoration: none;
+		padding: 30px;
+		color: var(--cd3);
+		transition: all 1s ease;
+		}
+		
+		#ul2li1 
+		{
+		float: left;
+		}
+
+		#ul2li2 
+		{
+		float: left;
+		}
+
+		#ul2li3
+		{
+		float: left;
+		}
+
+		#ul2li4
+		{
+		float: left;
+		}
+
+		#ul2li5
+		{
+		float: left;
+		}
+		
+		#ul2 li a:hover 
+		{
+		background-color: var(--cd3);
+		color: var(--cd1);
+		padding: 50px;
+		text-decoration: underline;
+		}
+
+		#name 
+		{
+			color: burlywood;
+			font-size: 75px;
+			text-align: left;
+			text-decoration: none;
+		}
+
+		#name:hover
+		{
+			color: rgb(255, 115, 0);
+			text-decoration: underline;
+			transition: 1s;
+		}
+
+		/* handling interactive content divs */
+		.contentdiv
+        {
+		   background-color: var(--cd1);
+		   font-family: cursive;
+		   margin-left: 50px;
+		   margin-right: 50px;
+		   margin-top: 10px;
+		   padding: 4px;
+           border: 3px solid var(--cd3);
+           border-radius: 10px;
+		}
+		
+		.contentdiv h2
+        {
+		  color: var(--cd4);
+		}
+		
+		.contentdiv p
+        {
+		   color: white;
+		   font-family: sans;
+		}
+
+        .contentdiv:hover
+        {
+            background-color: var(--cd5);
+            scale: 101%;
+            box-shadow: 5px 5px 10px rgba(245, 188, 1, 0.432);
+			border: 3px solid blueviolet;
+			/* color: var(--cd4); */
+        }
+
+		#PubItems
+		{
+			list-style-type: square;
+		}
+
+		#PubItems li a
+		{
+			color: black;
+			text-decoration: none;
+		}
+
+		#PubItems li a:hover
+		{
+			color: var(--cd4);
+			text-decoration: underline;
+		}
+	</style>
+
+	</head>
+	
+	<body style="background-color: var(--cd4)">
+        <ul id="ul2">
+            <li id="ul2li1"><a href="#AboutMe">About Me</a></li>
+            <li id="ul2li2"><a href="#Edu">Education</a></li>
+            <li id="ul2li3"><a href="#Pub">Publications</a></li>
+			<li id="ul2li4"><a href="#RIs">Research Interests</a></li>
+			<li id="ul2li5"><a href="#Skills">Skills</a></li>
+        </ul>
+
+		<h1>
+			<span>
+				<a id="name" href="#">
+					Saba Reisi
+				</a>
+			</span> <br>
+			<span style="color: darkmagenta; font-size: 55px; text-align: right;">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				Senior Environmental Engineer and Researcher
+			</span>
+		</h1>  
+	
+		<div id="AboutMe" class="Intro">
+			<div class="ImageLinks">
+				<img id="img1" src="./Photos/1 (3).jpg" alt="my photo."> <br>
+				<p style="text-align: center;">
+					<a target="_blank" class="InfoLinks" href="mailto: saba.reisi96@gmail.com">Email</a>
+					&nbsp;&nbsp;
+					<a target="_blank" class="InfoLinks" href="./CV.pdf">CV</a>
+					&nbsp;&nbsp;
+					<!-- <a class="InfoLinks" href="https://github.com/">Github</a>
+					&nbsp;&nbsp; -->
+					<a target="_blank" class="InfoLinks" href="https://scholar.google.com/citations?hl=en&user=S88Gb9wAAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a>
+					&nbsp;&nbsp;
+					<a target="_blank" class="InfoLinks" href="https://www.linkedin.com/in/saba-reisi-231a8a1bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+				</p>
+			</div>
+
+			<div class="TextIntro">
+					<div class="TextIntroUp">
+						<p style="font-family: 'Times New Roman', Times, serif; font-size: 65px; color: #5F236B; margin-top: 15px;">About Me</p>
+						<p style="font-size: 20px; margin-top: -40px; text-align: justify; margin-left: 25px; margin-right: 25px;">
+							During the past 5 years, my studying/research path has been focused on separating/removing pollutants from water using adsorption method.
+							In this regard, I have published some articles. My experience as a Research Assistant at 
+							the University of Tehran's Water and Wastewater laboratory has given me a solid understanding of various lab instruments.
+						</p>
+					</div>
+
+					<div class="TextIntroDown">
+						<div class="TextIntroDownLeft">
+							<p style="font-size: 22px; text-align: left; margin-left: 70px;">Research Interests</p>
+							<ul style="margin-left: 85px; text-align: left; font-size: 18px; list-style-type:square;">
+								<li>Absorption Process</li>
+								<li>Waste Management</li>
+								<li>Water and Waste Water Treatment</li>
+							</ul>
+						</div>
+
+						<div class="TextIntroDownRight">
+							<p style="font-size: 22px; text-align: left; margin-left: 0px;">Education</p>
+							<ul style="margin-left: 15px; text-align: left; font-size: 18px; list-style-type:square;">
+								<li> M. Sc. in Environmental Engineering Technology, <br>
+									 <span style="color: blue;">&nbsp;&nbsp;&nbsp;University of Tehran</span>.
+								</li>
+								<li> B. Sc. in Civil Engineering, <br>
+									 <span style="color: blue;">&nbsp;&nbsp;&nbsp;Shahrekord University</span>.
+								</li>
+							</ul>							
+						</div>
+
+					</div>
+			</div>
+		</div>
+
+		<hr>
+		<div class="contentdiv">
+			<h2 id="Edu">Education</h2>
+			<ul style="margin-left: 15px; text-align: left; font-size: 18px; list-style-type:square;">
+				<li> M. Sc. in Environmental Engineering Technology, 2020-2022,<br>
+						<span style="color: blue;">&nbsp;&nbsp;&nbsp;University of Tehran</span>.
+						<p style="color: black; font-family: cursive;">
+							&nbsp;&nbsp;&nbsp; <ins><em>Thesis:</em></ins> Immobilization of polypyrrole on waste face masks using a novel in-situ-surface polymerization method: <br>
+							&nbsp;&nbsp;&nbsp; removal of Cr(VI) from electroplating wastewater.
+						</p>
+				</li>
+				<li> B. Sc. in Civil Engineering, 2015-2020,<br>
+						<span style="color: blue;">&nbsp;&nbsp;&nbsp;Shahrekord University</span>.
+				</li>
+			</ul>	
+		</div>
+
+		<hr>
+		<div class="contentdiv">
+			<h2 id="Pub">Publications</h2>
+			<ul id="PubItems">
+				<li>
+					<a href="https://www.sciencedirect.com/science/article/abs/pii/S0009250924008522" target="_blank">
+						Natural and environmentally friendly rhamnolipid functionalized luffa fibers for adsorptive removal of pharmaceutical contaminant: Batch and fixed-bed column studies
+					</a>
+				</li>
+
+				<li>
+					<a target="_blank" href="https://www.tandfonline.com/doi/abs/10.1080/09593330.2023.2210771">
+						Immobilization of polypyrrole on waste face masks using a novel in-situ-surface polymerization method: removal of Cr (VI) from electroplating wastewater
+					</a>
+				</li>
+
+				<li>
+					<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S2214714423011777">
+						In-situ growth of Al/Ni layered double hydroxide onto polyaniline-wrapped sisal fibers for highly efficient removal of pharmaceutical Ketoprofen and Ibuprofen contaminants: Batch and fixed-bed column studies
+					</a>
+				</li>
+
+				<li>
+					<a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0022286023013091">
+						Preparation of waste face masks modified with MnO2/poly (m-phenylenediamine) as a novel adsorbent for hexavalent chromium removal: Comprehensive batch and column study
+					</a>
+				</li>
+
+				<li>
+					<a target="_blank" href="https://www.nature.com/articles/s41598-023-38511-0">
+						Preparation of sisal fiber/polyaniline/bio-surfactant rhamnolipid-layered double hydroxide nanocomposite for water decolorization: kinetic, equilibrium, and thermodynamic studies
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<hr>
+		<div class="contentdiv">
+			<h2 id="RIs">Research Interests</h2>
+			<ul style="margin-left: 15px; text-align: left; font-size: 18px; list-style-type:square;">
+				<li>Absorption Process</li>
+				<li>Waste Management</li>
+				<li>Water and Waste Water Treatment</li>
+			</ul>
+		</div>
+
+		<hr>
+		<div class="contentdiv">
+			<h2 id="Skills">Skills</h2>
+			<ul style="margin-left: 15px; text-align: left; font-size: 18px; list-style-type:square;">
+				<li>
+					Microsoft Office Package (at a professional level):
+					<ul>
+						<li>Word</li>
+						<li>PowerPoint</li>
+						<li>Excel</li>
+						<li>Publisher</li>
+					</ul>
+				</li>
+					Softwares and Tools:
+					<ul>
+						<li>AutoCad</li>
+						<li>Sima Pro</li>
+						<li>Help</li>
+						<li>SPSS</li>
+					</ul>
+				<li>
+					Language Skills:
+					<ul>
+						<li>English: Advanced</li>
+						<li>French: Intermediate</li>
+						<li>Persian: Native</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+	</body>
+
+</html>
